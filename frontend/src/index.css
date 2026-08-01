@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+
+    /* Soft aesthetic background */
+    background:
+    radial-gradient(circle at top left,#EDE9FE 0%,transparent 35%),
+    radial-gradient(circle at bottom right,#CCFBF1 0%,transparent 35%),
+    #F8FAFC;
+
+    color:#1E293B;
+    min-height:100vh;
+}
+
+button,
+input{
+    font-family:inherit;
+}
+
+button{
+    cursor:pointer;
+}
