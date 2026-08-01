@@ -151,7 +151,7 @@ npm run dev
 **Frontend**
 
 ```
-https://your-frontend-url.vercel.app
+https://bookverse-mern-crud.vercel.app/
 ```
 
 **Backend API**
