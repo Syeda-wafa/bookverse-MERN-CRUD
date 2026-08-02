@@ -31,6 +31,10 @@ BookVerse is a full-stack **MERN CRUD** application that allows users to manage 
 - MongoDB Atlas
 - Mongoose
 
+### Deployment
+- Vercel (Frontend)
+- Railway (Backend)
+  
 ---
 
 ## 📂 Project Structure
@@ -90,7 +94,7 @@ Each book contains the following information:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone (https://github.com/Syeda-wafa/bookverse-MERN-CRUD.git)
+git clone https://github.com/Syeda-wafa/bookverse-MERN-CRUD.git
 ```
 
 ```bash
@@ -158,6 +162,12 @@ https://bookverse-mern-crud.vercel.app/
 
 ```
 https://artistic-intuition-production-ea49.up.railway.app/
+```
+
+**Books API**
+
+```
+https://artistic-intuition-production-ea49.up.railway.app/api/books
 ```
 
 ---
