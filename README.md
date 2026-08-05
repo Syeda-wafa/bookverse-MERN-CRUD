@@ -155,7 +155,7 @@ npm run dev
 **Frontend**
 
 ```
-https://bookverse-mern-crud-2w6egrgzz-syeda-wafas-projects.vercel.app/
+https://bookverse-mern-crud.vercel.app/
 ```
 
 **Backend API**
