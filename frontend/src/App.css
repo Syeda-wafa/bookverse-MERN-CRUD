@@ -180,6 +180,11 @@ button:hover{
 
 }
 
+button:focus-visible{
+    outline:3px solid #1E293B;
+    outline-offset:3px;
+}
+
 
 
 /* Books */
@@ -281,31 +286,25 @@ button:hover{
 
 
 .edit-btn{
-
-    background:#14B8A6;
-
+    background:#0D9488;
+    color:#ffffff;
+    font-weight:600;
 }
 
-
 .edit-btn:hover{
-
-    background:#0D9488;
-
+    background:#0B7F75;
 }
 
 
 
 .delete-btn{
-
-    background:#EF476F;
-
+    background:#C62828;
+    color:#ffffff;
+    font-weight:600;
 }
 
-
 .delete-btn:hover{
-
-    background:#DC355C;
-
+    background:#B71C1C;
 }
 
 

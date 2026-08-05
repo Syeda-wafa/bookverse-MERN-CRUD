@@ -84,25 +84,29 @@ function BookForm({ fetchBooks, editingBook, setEditingBook }) {
       <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="input-group">
-            <label>Book Title</label>
+            <label htmlFor="title">Book Title</label>
 
             <input
+              id="title"
               type="text"
               name="title"
               value={book.title}
               onChange={handleChange}
+              placeholder="Enter book title"
               required
             />
           </div>
 
           <div className="input-group">
-            <label>Author</label>
+            <label htmlFor="author">Author</label>
 
             <input
+              id="author"
               type="text"
               name="author"
               value={book.author}
               onChange={handleChange}
+              placeholder="Enter author name"
               required
             />
           </div>
@@ -110,25 +114,30 @@ function BookForm({ fetchBooks, editingBook, setEditingBook }) {
 
         <div className="form-row">
           <div className="input-group">
-            <label>Category</label>
+            <label htmlFor="category">Category</label>
 
             <input
+              id="category"
               type="text"
               name="category"
               value={book.category}
               onChange={handleChange}
+              placeholder="Enter category"
               required
             />
           </div>
 
           <div className="input-group">
-            <label>Price</label>
+            <label htmlFor="price">Price</label>
 
             <input
+              id="price"
               type="number"
               name="price"
               value={book.price}
               onChange={handleChange}
+              placeholder="Enter price"
+              min="0"
               required
             />
           </div>

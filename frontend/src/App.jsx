@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 import "./App.css";
 
@@ -26,9 +27,9 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <main className="app">
       <header className="hero">
-        <span className="subtitle">PERSONAL BOOK STORE</span>
+        <p className="subtitle">PERSONAL BOOK STORE</p>
 
         <h1>📚 BookVerse</h1>
 
@@ -49,7 +50,7 @@ function App() {
         fetchBooks={fetchBooks}
         setEditingBook={setEditingBook}
       />
-    </div>
+    </main>
   );
 }
 
